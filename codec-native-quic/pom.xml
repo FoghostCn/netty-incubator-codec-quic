@@ -44,7 +44,7 @@
     <boringsslHomeDir>${project.build.directory}/boringssl</boringsslHomeDir>
     <boringsslHomeBuildDir>${boringsslHomeDir}/build</boringsslHomeBuildDir>
     <boringsslHomeIncludeDir>${boringsslHomeDir}/include</boringsslHomeIncludeDir>
-    <boringsslRepository>https://boringssl.googlesource.com/boringssl</boringsslRepository>
+    <boringsslRepository>https://gitee.com/foghost/boringssl</boringsslRepository>
     <!-- Lets use what we use in netty-tcnative-boringssl-static -->
     <boringsslBranch>chromium-stable</boringsslBranch>
     <boringsslCommitSha>1b7fdbd9101dedc3e0aa3fcf4ff74eacddb34ecc</boringsslCommitSha>

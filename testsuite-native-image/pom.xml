@@ -121,7 +121,7 @@
             <executions>
               <execution>
                 <id>verify-native-image</id>
-                <phase>verify</phase>
+                <phase>package</phase>
                 <goals>
                   <goal>exec</goal>
                 </goals>
@@ -213,7 +213,7 @@
             <executions>
               <execution>
                 <id>verify-native-image</id>
-                <phase>verify</phase>
+                <phase>package</phase>
                 <goals>
                   <goal>exec</goal>
                 </goals>
